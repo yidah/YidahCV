@@ -1,0 +1,9 @@
+<div *ngFor='let skill of skills'>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success progress-bar-striped" 
+         role="progressbar" aria-valuenow="100" aria-valuemax="100"
+         [ngStyle]="{'width':skill.Percentage}">
+         {{skill.Name}}  {{ skill.PercentageDescription }} 
+    </div>
+  </div>
+</div>

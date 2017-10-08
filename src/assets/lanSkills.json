@@ -1,0 +1,21 @@
+[
+    {
+        "skillId": 1,
+        "Name": "Spanish",
+        "Percentage": "100%",
+        "PercentageDescription": "100%"
+    },
+    {
+        "skillId": 2,
+        "Name": "English",
+        "Percentage": "90%",
+        "PercentageDescription": "90%"
+    },
+        {
+        "skillId": 3,
+        "Name": "Italian",
+        "Percentage": "70%",
+        "PercentageDescription": "70%"
+    }
+
+]

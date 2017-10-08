@@ -1,0 +1,39 @@
+[
+    {
+        "skillId": 1,
+        "Name": "ASP.NET",
+        "Percentage": "width:100%",
+        "PercentageDescription": "50%"
+    },
+    {
+        "skillId": 2,
+        "Name": "C#",
+        "Percentage": "width:40%",
+        "PercentageDescription": "90%"
+    },
+        {
+        "skillId": 3,
+        "Name": "Angular",
+        "Percentage": "width:40%",
+        "PercentageDescription": "70%"
+    },
+        {
+        "skillId": 4,
+        "Name": "JavaScript",
+        "Percentage": "width:40%",
+        "PercentageDescription": "50%"
+    },
+        {
+        "skillId": 5,
+        "Name": "CSS",
+        "Percentage": "width:40%",
+        "PercentageDescription": "40%"
+    },
+        {
+        "skillId": 6,
+        "Name": "SQL",
+        "Percentage": "width:40%",
+        "PercentageDescription": "70%"
+    }
+]
+    
