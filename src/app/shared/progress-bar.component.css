@@ -1,8 +1,15 @@
+.progress{
+    height: 30px;
+}
+
 .progress-bar-success {
     background-color:#ff8533;
+    
 }
 
 .progress-bar {
     text-align: left;
     padding-left: 5px;
+    padding-top: 5px;
+    font-size: 14px;
 }

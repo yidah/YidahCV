@@ -1,8 +1,20 @@
-.row {
-    margin: 30px;
-}
-.row.content {height: 1500px;}
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
 
+    /* Set 100% height */
+    .sidenav {
+        
+        height: 100%;
+      }
+
+          /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+        .sidenav {
+          height: auto;
+          padding: 15px;
+        }
+        .row.content {height: auto;} 
+      }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff;
     background-color: #ff8533;
@@ -13,66 +25,36 @@ a {
     text-decoration: none;
 }
 
-
-.container-fluid {
-    padding-right: 90px;
-    padding-left: 145px;
-
-}
-
 #leftSide{
     background-color:grey;
     color: white;
-    height: 1500px;
+  
+
 }
 
 #rightSide{
-    height: 1500px;
+
+    
 }
 
 .jumbotron {
     background-color:#ff8533;
-margin-left: 30px;
-margin-right: 30px;
     margin-bottom: 0px;
     text-align: center;
     font-family: Arial;
     font-style:normal;
     font-variant-caps: small-caps;
-    color: grey;
-    margin-top: 0px; 
-    margin-bottom: 0px;
-}
-
-.jumbotron p {
-
-
-    
-}
-
-.jumbotron h1 {
-
-    
+    color: grey;   
 }
 
 .jumbotron hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
     border-top:3px solid #eee;
     width:50%;
 }
 
-.cvContent{
-    background-color:white;
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
- 
+.well {
+
+    background-color: lightyellow;
 }
-.aboutMeTitle{
-
-
-}
-
 
 
