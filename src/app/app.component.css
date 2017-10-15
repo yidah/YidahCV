@@ -1,3 +1,8 @@
+
+.content {
+    max-width: 1600px;
+    margin: auto;
+}
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
 .row.content {height: 1500px}
 
@@ -53,8 +58,28 @@ a {
 }
 
 .well {
+background: #f2c213;
+color: #4f6367;
+border: 1px border-style color;
+font-size: 17px;
+letter-spacing: -0.03em;
+text-align: left;
+font-style: italic;
+font-family:  Georgia, "Times New Roman", Times, serif;
 
-    background-color: lightyellow;
+
 }
 
+.aboutMe{
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    font-weight: bold;
+    color: #4f6367;
+}
+
+
+.spa{
+   
+}
 
