@@ -18,6 +18,7 @@ h2 {
     color: #4f6367;
     border-bottom: 10px solid;
     width: 500px;
+    max-width: 100%;
     
 }
 
@@ -29,9 +30,15 @@ h3 {
     color: #4f6367;
     
 }
-.experience{
+
+#experience{
+    max-width: 100%;
+}
+
+.company{
     font-size: 14px;
     line-height: 28px;
     letter-spacing: -0.03em;
     color: #4f6367;
+    max-width: 100%;
 }
